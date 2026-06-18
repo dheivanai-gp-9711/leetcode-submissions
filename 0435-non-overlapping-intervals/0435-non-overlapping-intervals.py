@@ -4,18 +4,11 @@ class Solution(object):
         :type intervals: List[List[int]]
         :rtype: int
         """
-        if len(intervals) == 0:
-            return 0
-        if len(intervals) == 1:
-            return 0
-        intervals.sort(key=lambda val:val[1])
-        # print(intervals)
-        currTime = intervals[0][1]
-        count=1
-
+        intervals.sort(key=lambda i:i[1])
+        prevEnd = intervals[0][1]
+        count=1#consider first interval as non overlapping one
         for i in range(1, len(intervals)):
-            if intervals[i][0] >= currTime:
+            if intervals[i][0] >= prevEnd:
                 count+=1
-                currTime = intervals[i][1]
+                prevEnd = intervals[i][1]
         return len(intervals) - count
-        
