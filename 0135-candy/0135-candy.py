@@ -4,25 +4,49 @@ class Solution(object):
         :type ratings: List[int]
         :rtype: int
         """
-        leftSum=[0]*len(ratings)
-        leftSum[0] = 1
-        for i in range(1, len(ratings)):
-            if ratings[i] > ratings[i-1]:
-                leftSum[i] = leftSum[i-1]+1
-            else:
-                leftSum[i] = 1
-        print(leftSum)
-        # sum=leftSum[len(ratings)-1]
-        sum=max(1, leftSum[len(ratings)-1])
-        print(sum)
-        prev=1
-        for i in range(len(ratings)-2, -1, -1):
-            if ratings[i] > ratings[i+1]:
-                curr=prev+1
-            else:
-                curr=1
-            prev = curr
-            sum+=max(leftSum[i], curr)
+        # leftSum=[0]*len(ratings)
+        # leftSum[0] = 1
+        # for i in range(1, len(ratings)):
+        #     if ratings[i] > ratings[i-1]:
+        #         leftSum[i] = leftSum[i-1]+1
+        #     else:
+        #         leftSum[i] = 1
+        # print(leftSum)
+        # # sum=leftSum[len(ratings)-1]
+        # sum=max(1, leftSum[len(ratings)-1])
+        # print(sum)
+        # prev=1
+        # for i in range(len(ratings)-2, -1, -1):
+        #     if ratings[i] > ratings[i+1]:
+        #         curr=prev+1
+        #     else:
+        #         curr=1
+        #     prev = curr
+        #     sum+=max(leftSum[i], curr)
+        # return sum
+        #slope based approach
+        
+        i=1
+        n=len(ratings)
+        sum=n
+        while i<n:
+            peak=0
+            while i<n and ratings[i] > ratings[i-1]:#increasting peak
+                peak+=1
+                sum+=peak
+                i+=1
+            down=0
+            while i<n and ratings[i] < ratings[i-1]:
+                down+=1
+                sum+=down
+                i+=1
+            sum-=min(peak, down)
+            while i<n and ratings[i] == ratings[i-1]:
+                # sum+=1
+                i+=1
         return sum
+
+
+
 
         
