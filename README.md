@@ -37,4 +37,20 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0678-valid-parenthesis-string](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0678-valid-parenthesis-string) |
+## Tree
+|  |
+| ------- |
+| [0112-path-sum](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0112-path-sum) |
+## Depth-First Search
+|  |
+| ------- |
+| [0112-path-sum](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0112-path-sum) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0112-path-sum](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0112-path-sum) |
+## Binary Tree
+|  |
+| ------- |
+| [0112-path-sum](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0112-path-sum) |
 <!---LeetCode Topics End-->
