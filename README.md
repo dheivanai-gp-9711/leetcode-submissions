@@ -8,6 +8,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0057-insert-interval](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0057-insert-interval) |
 | [0134-gas-station](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0134-gas-station) |
 | [0135-candy](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0135-candy) |
+| [0219-contains-duplicate-ii](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0219-contains-duplicate-ii) |
 | [0435-non-overlapping-intervals](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0435-non-overlapping-intervals) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Dynamic Programming
@@ -60,4 +61,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0113-path-sum-ii](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0113-path-sum-ii) |
+## Hash Table
+|  |
+| ------- |
+| [0219-contains-duplicate-ii](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0219-contains-duplicate-ii) |
+## Sliding Window
+|  |
+| ------- |
+| [0219-contains-duplicate-ii](https://github.com/dheivanai-gp-9711/leetcode-submissions/tree/master/0219-contains-duplicate-ii) |
 <!---LeetCode Topics End-->
